@@ -1,6 +1,6 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "wp-api-app",
+  "short_name": "wp-api-app",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
