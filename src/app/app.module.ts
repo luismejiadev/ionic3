@@ -8,7 +8,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { PostDetail } from '../pages/post-detail/post-detail';
+import { PostDetailPage } from '../pages/post-detail/post-detail';
 import { ListPage } from '../pages/list/list';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -21,7 +21,7 @@ import { StatusBar } from '@ionic-native/status-bar';
     ContactPage,
     HomePage,
     TabsPage,
-    PostDetail,
+    PostDetailPage,
     ListPage
   ],
   imports: [
@@ -36,7 +36,7 @@ import { StatusBar } from '@ionic-native/status-bar';
     ContactPage,
     HomePage,
     TabsPage,
-    PostDetail,
+    PostDetailPage,
     ListPage
   ],
   providers: [

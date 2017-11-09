@@ -13,7 +13,7 @@ import {IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-post-detail',
   templateUrl: 'post-detail.html',
 })
-export class PostDetail {
+export class PostDetailPage {
   selectedItem: any;
 
   constructor(private nav: NavController, navParams: NavParams) {
@@ -21,7 +21,7 @@ export class PostDetail {
     this.selectedItem = navParams.get('item');
   }
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PostDetail');
+    console.log('ionViewDidLoad PostDetailPage');
   }
 
 }

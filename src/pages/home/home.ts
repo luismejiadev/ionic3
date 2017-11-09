@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {PostDetail} from '../post-detail/post-detail';
+import {PostDetailPage} from '../post-detail/post-detail';
 import {NavController, NavParams } from 'ionic-angular';
 
 import {Http} from '@angular/http';
@@ -27,6 +27,6 @@ export class HomePage {
     }
 
     itemTapped(event, item) {
-        this.nav.push(PostDetail, {item:item});
+        this.nav.push(PostDetailPage, {item:item});
     }
 }
